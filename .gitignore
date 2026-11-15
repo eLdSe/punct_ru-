@@ -1,0 +1,30 @@
+# Rust build outputs
+/target/
+app_rust/target/
+**/*.rs.bk
+
+# Compiled distribution & binaries
+/dist/
+_old_files/
+*.exe
+*.dll
+*.pdb
+*.obj
+*.res
+*.zip
+
+# Python & ML training cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ml/__pycache__/
+ml/punct-ru-code.zip
+ml/punct_ru_code.zip
+*.log
+
+# Windows / IDE
+Thumbs.db
+desktop.ini
+.vs/
+.vscode/
+*.user
